@@ -1,0 +1,230 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Totebag"
+    },
+    {
+      "id": 2,
+      "nama": "Alat Makan"
+    },
+    {
+      "id": 3,
+      "nama": "Alat Mandi"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "L-01",
+      "nama": "Totebag A",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "totebag-1.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Totebag"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "L-02",
+      "nama": "Totebag B",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "totebag-2.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Totebag"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "L-03",
+      "nama": "Totebag C",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "totebag-3.png",
+      "category": {
+        "id": 1,
+        "nama": "Totebag"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "L-04",
+      "nama": "Botol Minum Pink",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "bottle-1.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Alat Makan"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "L-05",
+      "nama": "Botol Minum Hijau",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "bottle-2.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Alat Makan"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "L-06",
+      "nama": "Botol Minum Motif Daun",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "bottle-3.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Alat Makan"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "L-07",
+      "nama": "Sendok Garpu Kayu",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "alatmakan-1.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Alat Makan"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "L-08",
+      "nama": "Sedotan Stainless",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "sedotan-stainless.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Alat Makan"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "L-09",
+      "nama": "Sedotan Bambu",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "sedotan-bambu.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Alat Makan"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "L-010",
+      "nama": "Sabun Wangi Jeruk",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "sabun-1.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Alat Mandi"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "L-011",
+      "nama": "Sabun Wangi Mawar",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "sabun-2.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Alat Mandi"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "L-012",
+      "nama": "Sabun Wangi Mint",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "sabun-3.webp",
+      "category": {
+        "id": 3,
+        "nama": "Alat Mandi"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "L-013",
+      "nama": "Sikat Gigi Bambu Hitam",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "sikatgigi-1.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Alat Mandi"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "L-014",
+      "nama": "Sikat Gigi Bambu Warna",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "sikatgigi-2.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Alat Mandi"
+      }
+    }
+  ],
+  "keranjangs": [
+    {
+      "jumlah": 1,
+      "total_harga": 16000,
+      "product": {
+        "id": 1,
+        "kode": "L-01",
+        "nama": "Totebag A",
+        "harga": 16000,
+        "is_ready": true,
+        "gambar": "totebag-1.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Totebag"
+        }
+      },
+      "id": 1
+    }
+  ],
+  "pesanans": [
+    {
+      "total_bayar": 36000,
+      "barangs": [
+        {
+          "jumlah": 3,
+          "total_harga": 36000,
+          "product": {
+            "id": 3,
+            "kode": "L-03",
+            "nama": "Totebag C",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "totebag-3.png",
+            "category": {
+              "id": 1,
+              "nama": "Totebag"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
